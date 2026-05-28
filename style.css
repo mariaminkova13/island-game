@@ -1,0 +1,90 @@
+@font-face {
+     font-family: averia;
+     src: url('style/font/AveriaLibre-Bold.ttf')
+}
+
+@font-face {
+     font-family: blackops;
+     src: url('style/font/BlackOpsOne-Regular.ttf')
+}
+
+@font-face {
+     font-family: syne;
+     src: url('style/font/SyneMono-Regular.ttf')
+}
+
+#title {
+     font-family: blackops;
+     font-size: 80pt;
+     position: fixed;
+     margin: 0.8lh auto;
+     opacity: 0.2
+}
+
+h1 {
+     font-family: averia, monospace;
+     font-size: 20pt;
+     margin: 0
+}
+
+html {
+     height: 100%;
+     font-family: syne, system-ui;
+     background-color: #333;
+     user-select: none;
+     text-align: center;
+     font-size: 14pt;
+     text-rendering: optimizeLegibility;
+     color: white;
+     box-sizing: border-box;
+}
+
+body {
+     padding: 0;
+     margin: 0;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+#dialogue {
+     text-overflow: ellipsis;
+     text-wrap-mode: wrap;
+     text-wrap-style: pretty;
+     min-height: 5lh;
+     padding: 1em;
+     width: 50vw;
+     display: flex;
+     hyphens: auto;
+     overflow: wrap;
+     outline: 4px solid white;
+     outline-offset: 2px
+}
+
+container {
+     border: 2px solid white;
+     background-color: rgba(75, 75, 75, 0.8);
+}
+
+div,
+container {
+     align-items: center;
+     padding: 1lh;
+}
+
+#inventory {
+     position: fixed;
+     top: 1lh;
+     right: 1lh;
+     width: min-content;
+}
+
+ul {
+     margin: 0;
+     list-style-type: square;
+     padding: 0;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
