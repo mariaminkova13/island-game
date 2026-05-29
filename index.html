@@ -5,15 +5,21 @@
 </head>
 
 <body>
-     <span id="title">Game</span>
+     <span id="title">D&D Ripoff</span>
      <div
           style="display: flex; flex-direction: column; align-items:center; justify-content: center; height: 100%; gap: 1lh">
           <h1>current turn: player1</h1>
           <container id="dialogue"></container>
+          <div id="health">
+               <!-- <div id="healthAfter"></div> -->
+               <span>HP: 79%</span>
+          </div>
      </div>
-     <container id="map">this is map</container>
+     <container id="players">
+          <h1>Players:</h1>
+     </container>
      <container id="inventory">
-          <h1>Inventory</h1>
+          <h1>Inventory:</h1>
           <ul>
                <li>thing1</li>
                <li>thing1</li>
@@ -23,5 +29,4 @@
      </container>
 </body>
 
-<script src="dialogue.js"></script>
-<script src="drag.js"></script>
+<script src="game.js"></script>

@@ -1,3 +1,5 @@
+export { say }
+
 function sleep(ms) {
      return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -44,8 +46,6 @@ async function update(text) {
      await sleep(Math.floor(Math.random() * (max - min + 1)) + min)
      await update(text)
 }
-
-let str = "lorem ipsum dolor sit amet bla bla bla wi ierguhvio w hf qieruh[ q [ough[qoeuifgho[eurg"
 
 document.addEventListener("DOMContentLoaded", async () => {
      dialogue = document.getElementById('dialogue')

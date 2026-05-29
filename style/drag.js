@@ -1,5 +1,5 @@
 dragElement(document.getElementById("inventory"));
-dragElement(document.getElementById("map"));
+dragElement(document.getElementById("players"));
 
 function dragElement(elmnt) {
      elmnt.style.position = "fixed";
