@@ -8,12 +8,12 @@
      <span id="title">D&D Ripoff</span>
      <div
           style="display: flex; flex-direction: column; align-items:center; justify-content: center; height: 100%; gap: 1lh">
-          <h1>current turn: player1</h1>
-          <container id="dialogue"></container>
+          <!-- <h1>current turn: player1</h1> -->
           <div id="health">
-               <!-- <div id="healthAfter"></div> -->
                <span>HP: 79%</span>
           </div>
+          <container id="dialogue"></container>
+          <div id="options"></div>
      </div>
      <container id="players">
           <h1>Players:</h1>
@@ -29,4 +29,4 @@
      </container>
 </body>
 
-<script src="game.js"></script>
+<script type="module" src="./dialogue.mjs"></script>
